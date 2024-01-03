@@ -1,3 +1,7 @@
+.body, .header {
+    background-color: #f2f0f3;
+}
+
 .primary-color {
     color: #358ccc;
 }
@@ -7,8 +11,24 @@
 }
 
 .header {
-    background-color: #fff;
     padding: 5px 0;
+}
+
+.banner img {
+    
+}
+
+.a {
+    text-decoration: none;
+}
+
+.social-media a {
+    color: black;
+}
+
+.card {
+    background-color: #374A57;
+    color: #fff;
 }
 
 .main-timeline12 .timeline {
@@ -195,7 +215,7 @@
 }
 
 .flip-card {
-    /* background-color: transparent; */
+    background-color: transparent;
     width: 250px; /* Ajustar para o tamanho correto*/
     height: 300px;
     perspective: 1000px;
@@ -225,12 +245,10 @@
 }
 
 .flip-card-front {
-    background-color: #bbb;
     color: black;
 }
 
 .flip-card-back {
-    background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
 }

@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/b5df608284.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="body">
     <header class="header sticky-top shadow-sm" id="header">
         <div class="container">
             <div class="row">
@@ -30,10 +30,10 @@
                     </div>
                     <div class="d-none d-md-block">
                         <nav class="nav justify-content-end">
-                            <a href="#" class="nav-link">About</a>
-                            <a href="#" class="nav-link">Services</a>
-                            <a href="#" class="nav-link">Projects</a>
-                            <a href="#" class="nav-link">Contact</a>
+                            <a href="#about" class="nav-link">About</a>
+                            <a href="#services" class="nav-link">Services</a>
+                            <a href="#projects" class="nav-link">Projects</a>
+                            <a href="#contact" class="nav-link">Contact</a>
                             <a href="#" class="btn btn-primary secondary-color rounded-pill">HIRE ME</a>
                         </nav>
                     </div>
@@ -41,10 +41,10 @@
                 <div class="col-12">
                     <div class="collapse" id="menuMobile">
                         <nav class="nav flex-column justify-content-end">
-                            <a href="#" class="nav-link">About</a>
-                            <a href="#" class="nav-link">Services</a>
-                            <a href="#" class="nav-link">Projects</a>
-                            <a href="#" class="nav-link">Contact</a>
+                            <a href="#about" class="nav-link">About</a>
+                            <a href="#services" class="nav-link">Services</a>
+                            <a href="#projects" class="nav-link">Projects</a>
+                            <a href="#contact" class="nav-link">Contact</a>
                             <a href="#" class="btn btn-primary secondary-color rounded-pill">HIRE ME</a>
                         </nav>
                     </div>
@@ -53,24 +53,30 @@
         </div>
     </header>
     <section class="banner">
-        <div class="container mt-5">
+        <div class="container my-5">
             <div class="row">
                 <div class="col-7">
                     <p class="h1">Hi,<br>I am <span class="primary-color">Christofer Bernardo</span>,<br>Full-stack
                         developer</p>
                     <p class="h3"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button class="btn btn-primary secondary-color">Download CV</button>
-                    <button class="btn btn-outline-primary primary-color">Hire Me</button>
+                    <div class="row justify-content-start mt-4">
+                        <div class="col-3">
+                            <button class="btn btn-primary secondary-color">Download CV</button>
+                        </div>
+                        <div class="col-2">
+                            <button class="btn btn-outline-primary primary-color">Hire Me</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-5">
-                    <img class="img-fluid d-block mx-auto" style="width: 345px;" src="images/roberto.png"
+                    <img class="img-fluid d-block mx-auto rounded-circle" style="width: 345px;" src="images/christofer.jpg"
                         alt="Foto Christofer">
                 </div>
             </div>
         </div>
     </section>
-    <section class="about">
-        <div class="container mt-5">
+    <section class="about" id="about">
+        <div class="container my-5">
             <h1 class="primary-color text-center mb-5">Who am I</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt porttitor lobortis. Aliquam
                 maximus dui at mattis dictum. Nulla consequat sit amet erat vel accumsan. Fusce eget mauris lorem.
@@ -150,8 +156,8 @@
             </div>
         </div>
     </section>
-    <section class="services">
-        <div class="container mt-5 mb-5">
+    <section class="services" id="services">
+        <div class="container my-5">
             <h1 class="primary-color text-center mb-5">My Services</h1>
             <div class="row">
                 <div class="col-4">
@@ -187,17 +193,17 @@
             </div>
         </div>
     </section>
-    <section class="projects">
-        <div class="container mt-5 mb-5">
+    <section class="projects" id="projects">
+        <div class="container my-5">
             <h1 class="primary-color text-center mb-5">Projects</h1>
             <div class="row">
                 <div class="col-3">
                     <div class="card flip-card">
                         <div class="flip-card-inner">
-                            <div class="card-body flip-card-front">
+                            <div class="card-body flip-card-front primary-color">
                                 <img class="card-img-top mt-4 mb-4" src="images/cursogoogleanalytics.jpg" alt="API">
                             </div>
-                            <div class="card-body flip-card-back">
+                            <div class="card-body flip-card-back secondary-color">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nisl non velit
                                     accumsan facilisis.</p>
                                 <p>Veja no Github <i class="fa-brands fa-github"></i></p>
@@ -209,10 +215,10 @@
                 <div class="col-3">
                     <div class="card flip-card">
                         <div class="flip-card-inner">
-                            <div class="card-body flip-card-front">
+                            <div class="card-body flip-card-front primary-color">
                                 <img class="card-img-top mt-4 mb-4" src="images/cursogoogleanalytics.jpg" alt="API">
                             </div>
-                            <div class="card-body flip-card-back">
+                            <div class="card-body flip-card-back secondary-color">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nisl non velit
                                     accumsan facilisis.</p>
                                 <p>Veja no Github <i class="fa-brands fa-github"></i></p>
@@ -224,10 +230,10 @@
                 <div class="col-3">
                     <div class="card flip-card">
                         <div class="flip-card-inner">
-                            <div class="card-body flip-card-front">
+                            <div class="card-body flip-card-front primary-color">
                                 <img class="card-img-top mt-4 mb-4" src="images/cursogoogleanalytics.jpg" alt="API">
                             </div>
-                            <div class="card-body flip-card-back">
+                            <div class="card-body flip-card-back secondary-color">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nisl non velit
                                     accumsan facilisis.</p>
                                 <p>Veja no Github <i class="fa-brands fa-github"></i></p>
@@ -239,10 +245,10 @@
                 <div class="col-3">
                     <div class="card flip-card">
                         <div class="flip-card-inner">
-                            <div class="card-body flip-card-front">
+                            <div class="card-body flip-card-front primary-color">
                                 <img class="card-img-top mt-4 mb-4" src="images/cursogoogleanalytics.jpg" alt="API">
                             </div>
-                            <div class="card-body flip-card-back">
+                            <div class="card-body flip-card-back secondary-color">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nisl non velit
                                     accumsan facilisis.</p>
                                 <p>Veja no Github <i class="fa-brands fa-github"></i></p>
@@ -254,8 +260,8 @@
             </div>
         </div>
     </section>
-    <section class="contact">
-        <div class="container mt-5 mb-5">
+    <section class="contact" id="contact">
+        <div class="container my-5">
             <h1 class="primary-color text-center mb-5">Contact</h1>
             <div class="row justify-content-around">
                 <div class="col-5">
@@ -288,11 +294,66 @@
                     </div>
                 </div>
                 <div class="col-5">
-                    
+                    <form name="contact-form" action="" method="post">
+                        <div class="row justify-content-end">
+                            <div class="col-10">
+                                <label class="form-label col-4">Your name</label>
+                                <input class="form-control" type="text" name="name" placeholder="Enter your name">
+                            </div>
+                        </div>
+                        <div class="row mt-4 justify-content-end">
+                            <div class="col-10">
+                                <label class="form-label col-4">Your e-mail</label>
+                                <input class="form-control" type="email" name="email" placeholder="Enter your e-mail">
+                            </div>
+                        </div>
+                        <div class="row mt-4 justify-content-end">
+                            <div class="col-10">
+                                <label class="form-label col-4">Leave a message</label>
+                                <textarea class="form-control" placeholder="Enter your message here"
+                                    rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="row mt-4 justify-content-end">
+                            <div class="col-4">
+                                <button class="btn btn-primary secondary-color" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
+    <section class="social-media">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col">
+                    <p class="h4 text-center">You can also reach me through my social medias</p>
+                </div>
+            </div>
+            <div class="row justify-content-md-center mt-3">
+                <div class="col-md-auto">
+                    <a href="https://www.linkedin.com/in/christofer-bernardo-b3437a197/" target="_blank"><i class="fa-brands fa-linkedin mx-2"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-github mx-2"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp mx-2"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-medium mx-2"></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram mx-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container my-5">
+            <div class="row justify-content-md-between">
+                <div class="col-md-auto">
+                    <p>© 2023. All rights reserved</p>
+                </div>
+                <div class="col-md-auto">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
