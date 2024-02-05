@@ -6,24 +6,47 @@
     color: #358ccc;
 }
 
+.background-primary-color {
+    background-color: #358ccc;
+}
+
 .secondary-color {
     background-color: #ef6461;
+}
+
+.background-gray {
+    background-color: #374A57;
+}
+
+.nav-link, .p, .h1, .h4 {
+    color: #061926;
+}
+
+.white {
+    color: #f2f0f3;
 }
 
 .header {
     padding: 5px 0;
 }
 
-.banner img {
-    
-}
-
-.a {
+a {
     text-decoration: none;
+    color: #f2f0f3;
 }
 
-.social-media a {
-    color: black;
+.btn-primary {
+    border-color: #358ccc;
+}
+
+.btn-primary:hover{
+    background-color: #f2f0f3;
+    color: #358ccc;
+}
+
+.btn-outline-primary:hover {
+    background-color: #358ccc;
+    color: #f2f0f3;
 }
 
 .card {
@@ -215,8 +238,8 @@
 }
 
 .flip-card {
-    background-color: transparent;
-    width: 250px; /* Ajustar para o tamanho correto*/
+    background-color: #f2f0f3;
+    /*width: 250px; /* Ajustar para o tamanho correto*/
     height: 300px;
     perspective: 1000px;
 }
@@ -242,6 +265,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    border-radius: 5px;
 }
 
 .flip-card-front {
@@ -249,6 +273,6 @@
 }
 
 .flip-card-back {
-    color: white;
+    color: #f2f0f3;
     transform: rotateY(180deg);
 }
