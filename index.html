@@ -10,6 +10,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='css/custom.css'>
     <script src='/node_modules/bootstrap/dist/js/bootstrap.min.js'></script>
     <script src="https://kit.fontawesome.com/b5df608284.js" crossorigin="anonymous"></script>
+    <script src='/scripts/scripts.js'></script>
 </head>
 
 <body class="body">
@@ -332,7 +333,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 px-5">
-                    <form name="contact-form" action="" method="post">
+                    <form name="contact-form" action="javascript:sendEmail()" method="post" enctype="text/plain">
                         <div class="row justify-content-start justify-content-sm-end">
                             <div class="col-10">
                                 <label class="form-label col-4">Your name</label>
